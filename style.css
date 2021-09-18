@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, input, button {
+    font-family: Roboto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    --blue: #00A5CF;
+    --green: #7AE582;
+}
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td, .table th {
+    padding: 5px;
+    text-align: left;
+}
+
+.table thead {
+    background-color: var(--blue);
+    color: #FFF;
+}
+
+.form-group {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 5px;
+    outline-color: var(--blue);
+}
+
+.btn {
+    background-color: var(--green);
+    color: #FFF;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form {
+    border: 1px dotted var(--blue);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    filter: grayscale();
+}
+
+.link-acao {
+    text-decoration: none;
+    padding-right: 2px;
+}
